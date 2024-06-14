@@ -1,66 +1,17 @@
-## Foundry
+# OurToken Smart Contract
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This project demonstrates the implementation and testing of an ERC-20 token smart contract using Solidity. The project consists of several components:
 
-Foundry consists of:
+1. **OurToken Smart Contract** - An ERC-20 token implementation.
+2. **ManualToken Smart Contract** - A simplified token implementation with basic functionalities.
+3. **Deployment Script** - A script to deploy the OurToken contract.
+4. **Tests** - A set of tests to ensure the functionality of the OurToken contract.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Smart Contract Details
 
-## Documentation
+- **Solidity Version**: 0.8.19
+- **License**: MIT
 
-https://book.getfoundry.sh/
+## License
 
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
